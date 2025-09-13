@@ -3,7 +3,6 @@ Euler-Maruyama integrator for overdamped Langevin dynamics.
 """
 
 import numpy as np
-from numba import jit
 try:
     from .potentials import double_well_gradient
 except ImportError:

@@ -3,7 +3,6 @@ Double well potential and gradient functions for rare event simulation.
 """
 
 import numpy as np
-from numba import jit
 
 
 def double_well_potential(x, y, omega=1.0):

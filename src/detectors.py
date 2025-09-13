@@ -3,7 +3,6 @@ Region detection functions for absorption in sets A and B.
 """
 
 import numpy as np
-from numba import jit
 
 
 def in_region_A(x, y, r_A=0.2):

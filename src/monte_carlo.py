@@ -3,7 +3,6 @@ Naive Monte Carlo simulation for estimating transition probabilities.
 """
 
 import numpy as np
-from numba import jit
 import scipy.stats
 from tqdm import tqdm
 try:
