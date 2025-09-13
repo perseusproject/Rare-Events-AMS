@@ -1,0 +1,24 @@
+{
+  "parameters": {
+    "n_simulations": 1000,
+    "x0": -1.0,
+    "y0": 0.0,
+    "dt": 0.01,
+    "beta_inv": 0.5,
+    "max_steps": 10000,
+    "omega": 1.0,
+    "seed": 42
+  },
+  "results": {
+    "p_estimate": 0.002,
+    "ci_95": [
+      0.0006184810227315416,
+      0.007198659057787661
+    ],
+    "n_A": 998,
+    "n_B": 2,
+    "n_unabsorbed": 0,
+    "mean_time_B": 185.5,
+    "mean_time_A": 2.5080160320641283
+  }
+}
